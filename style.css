@@ -28,7 +28,7 @@ img{
 }
 
 #home{
-  　background-image: url(home.jpg);
+    background-image: url(home.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
