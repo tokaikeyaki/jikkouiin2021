@@ -1,0 +1,343 @@
+*{
+    font-size: 20px;
+}
+
+.wrapper{
+
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+body{
+    
+    background-image:url(body.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    width:700px;
+    background-color: rgba(221, 241, 38, 0.591);
+    border-radius: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.page-header{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+}
+
+.logo{
+    color: rgb(221, 241, 38);
+    font-size: 30px;
+    margin: 0 auto ;
+    }
+
+
+.menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    margin-top: 10px;
+    border: solid 3px #131312;
+}
+
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #50e90e;
+    position: absolute;
+}
+
+.menu-btn span:before {
+    bottom: 8px;
+}
+
+.menu-btn span:after {
+    top: 8px;
+}
+
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+#menu-btn-check {
+    display: none;
+}
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 80;
+    background-color: #3583bbb8;
+    transition: all 0.5s;
+}
+
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+
+.menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    color:#f0e5e5;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+}
+
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+.menu-content a:hover{
+    color: blue;
+}
+
+#menu-btn-check:checked ~ .menu-content {
+    left: 0;
+}
+
+.set{
+    width: 680px;
+    margin: 20px auto;
+}
+
+.department{
+    text-align: center;
+    color: darkcyan;
+}
+
+.mogi-all{
+    display: flex;
+    text-align: left;
+}
+
+.mogi{
+    width: 200px;
+    height: 150px;
+}
+
+.seisaku-all{
+    display: flex;
+    text-align: left;
+}
+
+.seisaku{
+    width: 200px;
+    height: 150px;
+}
+
+
+.kouhou-all{
+    display: flex;
+    text-align: left;
+}
+
+.kouhou{
+    width: 200px;
+    height: 150px;
+}
+
+.tenji-all{
+    display: flex;
+    text-align: left;
+}
+
+.tenji{
+    width: 200px;
+    height: 150px;
+}
+
+
+.staji-all{
+    display: flex;
+    text-align: left;
+}
+
+.staji{
+    width: 200px;
+    height: 150px;
+}
+
+.nousan-all{
+    display: flex;
+    text-align: left;
+}
+
+.nousan{
+    width: 200px;
+    height: 150px;
+}
+
+.keibi-all{
+    display: flex;
+    text-align: left;
+}
+
+.keibi{
+    width: 200px;
+    height: 150px;
+}
+
+.kaikei-all{
+    display: flex;
+    text-align: left;
+}
+
+.kaikei{
+    width: 200px;
+    height: 150px;
+}
+
+.bupin-all{
+    display: flex;
+    text-align: left;
+}
+
+.bupin{
+    width: 200px;
+    height: 150px;
+}
+
+.inquiry{
+    margin: 20px auto;
+    padding: 20px 40px;
+    background-color: darkseagreen;
+    border-radius: 20px;
+    display: block;
+    color: rgb(247, 247, 247);
+
+}
+
+.inquiry:hover{
+    background-color: rgba(143, 188, 143, 0.585);
+}
+
+.twitter{
+    background-color: rgba(0, 0, 255, 0.775);
+    color: rgb(248, 248, 248);
+    border-radius: 20px;
+    padding: 20px 40px;
+    display: block;
+}
+
+.twitter:hover{
+    background-color: rgba(0, 0, 255, 0.428);
+}
+
+.Instaglam{
+    display: block;
+    background-color: rgba(224, 47, 142, 0.857);
+    color: rgb(238, 238, 238);
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 20px auto;
+    display: block;
+}
+
+.Instaglam:hover{
+    background-color: rgba(224, 47, 141, 0.517);
+}
+
+.btn{
+    background-color: darkgoldenrod;
+    padding: 20px 40px;  
+    margin-top: 50px; 
+}
+
+h1 {
+    color: #6cb4e4;
+    text-align: center;
+    padding: 0.25em;
+    border-top: solid 2px #6cb4e4;
+    border-bottom: solid 2px #6cb4e4;
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  }
+  
+
+h2 {
+    position: relative;
+    color: #158b2b;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 1.5em 0;
+  }
+
+  h2:before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 150px;
+    height: 58px;
+    border-radius: 50%;
+    border: 5px solid #a6ddb0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+footer{
+    background-color:#432;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}
+
