@@ -28,8 +28,7 @@ img{
 }
 
 #home{
-    background-image: url(![home](https://user-images.githubusercontent.com/81255357/112348306-0d2ad680-8d0b-11eb-9155-b65c8b0f3d11.jpg)
-);
+    background-image:![home](https://user-images.githubusercontent.com/81255357/112348306-0d2ad680-8d0b-11eb-9155-b65c8b0f3d11.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
