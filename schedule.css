@@ -6,7 +6,7 @@
 
 body{
     
-    background-image:url(body.jpg);
+    background-image:url(body1.jpg);
     background-size: cover;
     background-attachment: fixed;
     
@@ -14,7 +14,7 @@ body{
 
 .main{
     width:700px;
-    background-color: rgba(221, 241, 38, 0.591);
+   
     border-radius: 20px;
     margin: 20px auto;
     box-sizing: border-box;
@@ -46,7 +46,7 @@ body{
     align-items: center;
     z-index: 90;
     margin-top: 10px;
-    border: solid 3px #131312;
+    border: solid 3px #f5f5ee;
 }
 
 .menu-btn span,
@@ -172,6 +172,7 @@ footer p{
 h1{
     text-align: center;
     font-size: 40px;
+    color: #ffffff;
 }
 
 .schedule1{

@@ -1,6 +1,3 @@
-*{
-    font-size: 20px;
-}
 
 .wrapper{
 
@@ -10,7 +7,7 @@
 
 body{
     
-    background-image:url(body.jpg);
+    background-image:url(body1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -21,12 +18,13 @@ a{
 
 .main{
     width:700px;
-    background-color: rgba(221, 241, 38, 0.591);
+    color: rgb(254, 254, 255);
     border-radius: 20px;
     margin: 20px auto;
     box-sizing: border-box;
     padding: 20px 10px;
     text-align: center;
+    font-size: 25px;
 }
 
 .page-header{
@@ -38,8 +36,8 @@ a{
 
 .logo{
     color: rgb(221, 241, 38);
+    margin: 10px auto ;
     font-size: 30px;
-    margin: 0 auto ;
     }
 
 
@@ -54,7 +52,7 @@ a{
     align-items: center;
     z-index: 90;
     margin-top: 10px;
-    border: solid 3px #131312;
+    border: solid 3px #ffffea;
 }
 
 .menu-btn span,
@@ -154,105 +152,97 @@ a{
 
 .department{
     text-align: center;
-    color: darkcyan;
+    color: #3ba0e4;
+    margin: 10px auto;
 }
 
 .mogi-all{
-    display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .mogi{
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
 }
 
 .seisaku-all{
-    display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .seisaku{
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
 }
 
 
 .kouhou-all{
-    display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .kouhou{
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
 }
 
 .tenji-all{
-    display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .tenji{
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
 }
 
 
 .staji-all{
-    display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .staji{
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
 }
 
 .nousan-all{
-    display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .nousan{
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
 }
 
 .keibi-all{
-    display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .keibi{
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
 }
 
 .kaikei-all{
-    display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .kaikei{
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
 }
 
 .bupin-all{
-    display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .bupin{
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
 }
 
 .inquiry{
     margin: 20px auto;
     padding: 20px 40px;
-    background-color: darkseagreen;
+    background-color: rgb(108, 209, 108);
     border-radius: 20px;
     display: block;
     color: rgb(247, 247, 247);
@@ -282,7 +272,6 @@ a{
     border-radius: 20px;
     padding: 20px 40px;
     margin: 20px auto;
-    display: block;
 }
 
 .Instaglam:hover{
@@ -296,13 +285,9 @@ a{
 }
 
 h1 {
-    color: #6cb4e4;
+    color: #3ba0e4;
     text-align: center;
-    padding: 0.25em;
-    border-top: solid 2px #6cb4e4;
-    border-bottom: solid 2px #6cb4e4;
-    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    font-size: 40px;
   }
   
 
@@ -315,20 +300,6 @@ h2 {
     margin: 1.5em 0;
   }
 
-  h2:before {
-    content: "";
-    position: absolute;
-    top: -8px;
-    left: 50%;
-    width: 150px;
-    height: 58px;
-    border-radius: 50%;
-    border: 5px solid #a6ddb0;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
 
 footer{
     background-color:#432;

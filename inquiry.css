@@ -4,7 +4,7 @@
 }
 
 #home{
-    background-image: url(body.jpg);
+    background-image: url(body1.jpg);
     width: 100%;
     min-height: 100vh;
     background-position: center;
@@ -25,11 +25,12 @@ a{
 
 .main{
     width:700px;
-    background-color: rgba(221, 241, 38, 0.591);
+    color: #ffffff;
     border-radius: 20px;
     margin: 20px auto;
     box-sizing: border-box;
     padding: 20px 10px;
+    font-size: 25px;
 }
 
 .page-header{
@@ -50,7 +51,7 @@ a{
     align-items: center;
     z-index: 90;
     margin-top: 10px;
-    border: solid 3px #131312;
+    border: solid 3px #fffffb;
 }
 
 .menu-btn span,

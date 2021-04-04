@@ -5,7 +5,7 @@
 
 body{
     
-    background-image:url(body.jpg);
+    background-image:url(body1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -16,12 +16,13 @@ a{
 
 .main{
     width:100%;
-    background-color: rgba(221, 241, 38, 0.591);
     border-radius: 20px;
     margin: 20px auto;
     box-sizing: border-box;
     padding: 20px 10px;
     text-align: center;
+    color: gainsboro;
+    font-size: 25px;
 }
 
 .logo{
@@ -48,7 +49,7 @@ a{
     align-items: center;
     z-index: 90;
     margin-top: 10px;
-    border: solid 3px #131312;
+    border: solid 3px #ffffff;
 }
 
 .menu-btn span,
@@ -148,43 +149,34 @@ a{
 
 .plan li{
     list-style: none;
+    margin: 10px auto;
 }
 
 .plan li a{
-    color: #040708;
+    color: #ffffff;
     
 }
 
 .plan li a:hover{
-    border-bottom: 2px solid rgb(38, 80, 233);
+    color: rgb(34, 96, 221);
 }
 
 h2 {
     position: relative;
-    color: #158b2b;
-    font-size: 20px;
-    padding: 10px 0;
+    color: #ebebeb;
+    background-color: rgb(20, 18, 6);
+    font-size: 50px;
+    padding: 10px ;
     text-align: center;
-    margin: 1.5em 0;
-  }
-  h2:before {
-    content: "";
-    position: absolute;
-    top: -8px;
-    left: 50%;
-    width: 150px;
-    height: 58px;
-    border-radius: 50%;
-    border: 5px solid #a6ddb0;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+    margin:10px auto;
+    border: solid 3px #dfe1e7;
+    width: 200px;
+    margin: 20px auto;
+    border-radius: 0.5em;
   }
 
  h1 {
-    color: #364e96;
-     border: solid 3px #364e96;
+    color: #ebebeb;
     padding: 0.5em;
     border-radius: 0.5em;
     }

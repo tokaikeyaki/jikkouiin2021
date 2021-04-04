@@ -5,7 +5,7 @@
 
 body{
     
-    background-image:url(body.jpg);
+    background-image:url(body1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -16,7 +16,7 @@ a{
 
 .main{
     width:700px;
-    background-color: rgba(221, 241, 38, 0.591);
+   
     border-radius: 20px;
     margin: 20px auto;
     box-sizing: border-box;
@@ -49,7 +49,7 @@ a{
     align-items: center;
     z-index: 90;
     margin-top: 10px;
-    border: solid 3px #131312;
+    border: solid 3px #e2e2da;
 }
 
 .menu-btn span,
@@ -147,32 +147,19 @@ h1 {
     color: #0b0816;
     background: transparent;
     border-left: solid 10px #7db4e6;
-    border-bottom:solid 1px black;
+    border-bottom:solid 1px #ffffff;
+    color: #ffffff;
   }
-
-h2 {
+    
+h2{
     position: relative;
-    color: #158b2b;
-    font-size: 20px;
-    padding: 10px 0;
+    color: #ffffff;
+    margin: 20px auto;
+	padding: 20px ;
+	font-size:50px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15) inset;
     text-align: center;
-    margin: 1.5em 0;
-  }
-
-  h2:before {
-    content: "";
-    position: absolute;
-    top: -8px;
-    left: 50%;
-    width: 150px;
-    height: 58px;
-    border-radius: 50%;
-    border: 5px solid #a6ddb0;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
+}
 
 .new-all{
     display: flex;
@@ -254,6 +241,7 @@ h2 {
     margin: 20px auto;
 
 }
+
 
 .uchi{
     width: 200px;

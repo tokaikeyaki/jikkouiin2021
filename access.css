@@ -20,7 +20,7 @@ body{
 
 .main{
     width:700px;
-    background-color: rgba(221, 241, 38, 0.591);
+    color: #ffffff;
     border-radius: 20px;
     margin: 20px auto;
     box-sizing: border-box;
@@ -45,7 +45,7 @@ body{
     align-items: center;
     z-index: 90;
     margin-top: 10px;
-    border: solid 3px #131312;
+    border: solid 3px #f0f0ef;
 }
 
 .menu-btn span,
@@ -149,18 +149,19 @@ body{
 
 h1 {
     padding: 0.25em 0.5em;
-    color: #494949;
+    color: #ffeaea;
     background: transparent;
     border-left: solid 5px #7db4e6;
   }
 
 a{
-    color: blue;
+    color: rgb(252, 252, 253);
     text-decoration: none;
 }
 
 a:hover{
 text-decoration: underline; 
+color: aqua;
 }
 
 
