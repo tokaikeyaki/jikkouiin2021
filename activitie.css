@@ -148,6 +148,7 @@ a{
 .set{
     width: 680px;
     margin: 20px auto;
+    border-radius: 20px;
 }
 
 .department{
@@ -158,11 +159,13 @@ a{
 
 .mogi-all{
     text-align: center;
+    
 }
 
 .mogi{
     width: 500px;
     height: 300px;
+    border-radius: 30px;
 }
 
 .seisaku-all{
@@ -172,6 +175,7 @@ a{
 .seisaku{
     width: 500px;
     height: 300px;
+    border-radius: 30px;
 }
 
 
@@ -182,6 +186,7 @@ a{
 .kouhou{
     width: 500px;
     height: 300px;
+    border-radius: 30px;
 }
 
 .tenji-all{
@@ -191,6 +196,7 @@ a{
 .tenji{
     width: 500px;
     height: 300px;
+    border-radius: 30px;
 }
 
 
@@ -201,6 +207,7 @@ a{
 .staji{
     width: 500px;
     height: 300px;
+    border-radius: 30px;
 }
 
 .nousan-all{
@@ -210,6 +217,7 @@ a{
 .nousan{
     width: 500px;
     height: 300px;
+    border-radius: 30px;
 }
 
 .keibi-all{
@@ -219,6 +227,7 @@ a{
 .keibi{
     width: 500px;
     height: 300px;
+    border-radius: 30px;
 }
 
 .kaikei-all{
@@ -228,6 +237,7 @@ a{
 .kaikei{
     width: 500px;
     height: 300px;
+    border-radius: 30px;
 }
 
 .bupin-all{
@@ -237,6 +247,7 @@ a{
 .bupin{
     width: 500px;
     height: 300px;
+    border-radius: 30px;
 }
 
 .inquiry{
@@ -293,11 +304,11 @@ h1 {
 
 h2 {
     position: relative;
-    color: #158b2b;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 50px;
     padding: 10px 0;
     text-align: center;
-    margin: 1.5em 0;
+    margin: 20px auto auto 0px;
   }
 
 
