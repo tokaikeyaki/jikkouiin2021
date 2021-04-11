@@ -153,7 +153,7 @@ img{
 }
 
 h1{
-    color: #e6d900;
+    color: #1f62e7;
     
 }
 
@@ -181,23 +181,209 @@ h1{
     background-repeat: no-repeat;
 }
 
-#introduction{
-    background-image: url(tokai.jpg);
+.loop_css {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    left: 50%;
+    margin-left: -50vw;
     overflow: hidden;
-    height: 270px;
-    margin-top: 250px;
-}
+  }
+  
+  .loop_css img {
+    width: auto;
+    height: 100%;
+  }
+  
+  /* 1つ目の画像 */
+  .loop_css img:first-child {
+    -webkit-animation: loop 50s -25s linear infinite;
+    animation: loop 50s -25s linear infinite;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+  }
+  
+  /* 2つ目の画像 */
+  .loop_css img + img {
+    -webkit-animation: loop2 50s  linear infinite;
+    animation: loop2 50s linear infinite;
+  }
+   /* 3つ目の画像 */
+  .loop_css img + img + img{
+    -webkit-animation: loop3 75s  linear infinite;
+    animation: loop3 75s linear infinite;
+  }
+   /* 4つ目の画像 */
+  .loop_css img + img + img+ img{
+    -webkit-animation: loop4 100s  linear infinite;
+    animation: loop4 100s linear infinite;
+  }
+   /* 5つ目の画像 */
+  .loop_css img + img + img + img + img {
+    -webkit-animation: loop5 125s  linear infinite;
+    animation: loop5 125s linear infinite;
+  }
 
-.twitter-timeline{
-float: center;
-padding: 20px;
-}
+  
+  /*アニメーション*/
+  @-webkit-keyframes loop {
+    0% {
+      -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes loop {
+    0% {
+      -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
+  
+  @-webkit-keyframes loop2 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-200%);
+      -ms-transform: translateX(-200%);
+      transform: translateX(-200%);
+    }
+  }
+  
+  @keyframes loop2 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-200%);
+      -ms-transform: translateX(-200%);
+      transform: translateX(-200%);
+    }
+  }
 
+  @-webkit-keyframes loop3 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-300%);
+      -ms-transform: translateX(-300%);
+      transform: translateX(-200%);
+    }
+  }
+  
+  @keyframes loop3 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-300%);
+      -ms-transform: translateX(-300%);
+      transform: translateX(-300%);
+    }
+  }
+  @-webkit-keyframes loop4 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-400%);
+      -ms-transform: translateX(-400%);
+      transform: translateX(-400%);
+    }
+  }
+  
+  @keyframes loop4 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-400%);
+      -ms-transform: translateX(-400%);
+      transform: translateX(-400%);
+    }
+  }
 
-#introduction .page-title{
-    text-align: center;
-}
+  @-webkit-keyframes loop5 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-500%);
+      -ms-transform: translateX(-500%);
+      transform: translateX(-500%);
+    }
+  }
+  
+  @keyframes loop5 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-500%);
+      -ms-transform: translateX(-500%);
+      transform: translateX(-500%);
+    }
+  }
 
+  @-webkit-keyframes loop6 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-600%);
+      -ms-transform: translateX(-600%);
+      transform: translateX(-600%);
+    }
+  }
+  
+  @keyframes loop6 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-600%);
+      -ms-transform: translateX(-600%);
+      transform: translateX(-600%);
+    }
+  }
+  
 .btn-active{
     color: #131312;
     text-align: center;
@@ -337,30 +523,32 @@ footer{
 }
 
 footer p{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 0.875rem;
 }
 
 @media screen and (max-width: 812px){
     h1{
-        color: #0e2ceb;
+        color: #1f62e7;
+        font-size: 30px;
     }
+
     .news-contents{
         flex-direction: column;
     }
+
     article,
     aside{
         width: 100%;
+        
     } 
 
     a.btn--circle{
         margin: 0 100px
     }
 
-    .page-title{
-        font-size: 5rem;
-        text-transform: uppercase;
-        font-weight: normal;
+    h2{
+        font-size: 20px;
     }
 }
 
