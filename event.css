@@ -97,7 +97,7 @@ a{
     top: 0;
     left: 100%;
     z-index: 80;
-    background-color: #3583bbb8;
+    background-color: #0d68c4;
     transition: all 0.5s;
 }
 
@@ -113,7 +113,7 @@ a{
 .menu-content ul li a {
     display: block;
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     box-sizing: border-box;
     color:#f0e5e5;
@@ -135,7 +135,7 @@ a{
 }
 
 .menu-content a:hover{
-    color: blue;
+    color: rgb(208, 255, 0);
 }
 
 #menu-btn-check:checked ~ .menu-content {

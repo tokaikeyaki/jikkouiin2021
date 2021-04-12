@@ -95,7 +95,7 @@ img{
     top: 0;
     left: 100%;
     z-index: 80;
-    background-color: #3583bbb8;
+    background-color: #0d68c4;
     transition: all 0.5s;
 }
 
@@ -104,17 +104,18 @@ img{
 }
 
 .menu-content ul li {
-    border-bottom: solid 1px #ffffff;
+   
     list-style: none;
 }
 
 .menu-content ul li a {
+   border-bottom: solid 1px #ffffff;
     display: block;
     width: 100%;
     font-size: 20px;
     text-align: center;
     box-sizing: border-box;
-    color:#f0e5e5;
+    color:#ffffff;
     text-decoration: none;
     padding: 9px 15px 10px 0;
     position: relative;
@@ -133,7 +134,7 @@ img{
 }
 
 .menu-content a:hover{
-    color: blue;
+    color: rgb(250, 237, 50);
 }
 
 #menu-btn-check:checked ~ .menu-content {
@@ -528,6 +529,10 @@ footer p{
 }
 
 @media screen and (max-width: 812px){
+
+    .home-content p{
+      font-size: 22px;
+    }
     h1{
         color: #1f62e7;
         font-size: 30px;
