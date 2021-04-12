@@ -21,7 +21,7 @@ a{
     }
 
 .main{
-    width:700px;
+    width:100%;
     color: rgb(247, 247, 247);
     border-radius: 20px;
     margin: 20px auto;

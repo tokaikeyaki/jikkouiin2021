@@ -19,7 +19,7 @@ body{
     }
 
 .main{
-    width:700px;
+    width:100%;
     color: #ffffff;
     border-radius: 20px;
     margin: 20px auto;
@@ -177,11 +177,6 @@ footer p{
     font-size: 0.875rem;
 }
 
-@media (max-width: 600px){
-    .main{
-        width: 500px;
-    }
-    .map{
-        height: 280px;
-    }
+@media screen and (max-width: 480px){
+    
 }

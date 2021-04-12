@@ -17,7 +17,7 @@ a{
 }
 
 .main{
-    width:700px;
+    width:100%;
     color: rgb(254, 254, 255);
     border-radius: 20px;
     margin: 20px auto;
@@ -152,6 +152,8 @@ a{
 }
 
 .department{
+
+    justify-content: space-between;
     text-align: center;
     color: #3ba0e4;
     margin: 10px auto;
@@ -323,3 +325,69 @@ footer p{
     font-size: 0.875rem;
 }
 
+@media screen and (max-width: 812px){
+    p{
+        font-size: 13px;
+    }
+
+   .set{
+       width: 320px;
+       height: 250px;
+    }
+
+    .department{
+        font-size: 25px;
+        margin: 50px 5px;
+    }
+
+   .mogi{
+       width: 320px;
+       height: 250px;
+    }
+
+   .seisaku{
+        width: 320px;
+        height: 250px;
+    }
+
+    .kouhou{
+        width: 320px;
+        height: 250px;
+    }
+
+    .tenji{
+        width: 320px;
+        height: 250px;
+    }
+
+    .nousan{
+        width: 320px;
+        height: 250px;
+    }
+
+    .staji{
+        width: 320px;
+        height: 250px;
+    }
+
+    .keibi{
+        width: 320px;
+        height: 250px;
+    }
+
+    .kaikei{
+        width: 320px;
+        height: 250px;
+    }
+
+    .bupin{
+        width: 320px;
+        height: 250px;
+    }
+
+    .keibi{
+        width: 320px;
+        height: 250px;
+    }
+
+}

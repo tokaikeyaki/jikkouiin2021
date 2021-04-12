@@ -17,8 +17,7 @@ a{
 }
 
 .main{
-    width:700px;
-    
+    width:100%;
     border-radius: 20px;
     margin: 20px auto;
     box-sizing: border-box;
